@@ -1,8 +1,6 @@
 # CipherClassic
 A suite of CLI classical encryption tools
 
-CipherClassic is a suite of CLI classical encryption tools.
-
 List of tools:
 
 Caesar Shift (Monoalphabetic substitution cipher)
