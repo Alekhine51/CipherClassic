@@ -1,5 +1,5 @@
 # CipherClassic
-A suite of CLI classical encryption tools. This repo is intended as a resource for students of cryptography. Each file is a self-contained encryption tool with comments explaining how it works.
+A suite of CLI classical encryption tools. This repo is intended as a resource for students of cryptography. Each file is a self-contained encryption tool with comments explaining how it works, and are written in Python, without Libraries. Python was chosen since it's a very common language.
 
 List of tools:
 
