@@ -1,11 +1,13 @@
 # CipherClassic
-A suite of CLI classical encryption tools. This repo is intended as a resource for students of cryptography. Each file is a self-contained encryption tool with comments explaining how it works, and are written in Python, without Libraries. Python was chosen since it's a very common language.
+A suite of CLI classical encryption tools. This repo is intended as a resource for students of the history of cryptography. Each file is a self-contained encryption tool with comments explaining how it works, and are written in Python. Python was chosen since it's a very common language with easy to understand syntax.
 
 List of tools:
 
 Caesar Shift (Monoalphabetic substitution cipher)
 
 Vignere Cipher (Polyalphabetic substitution cipher)
+
+To-Do:
 
 Enigma Machine emulator
 
