@@ -1,15 +1,20 @@
+#!/usr/bin/python3
+
 # Simple Caesar Cipher
 
-from string import ascii.lowercase
+import string
 
 plaintext = input("Enter plaintext or path to plaintext file:")
+#add file access later
 
-mod = input("Enter modulus(shift number):")
+mod = input("Enter shift number):")
 
-LETTERS = enumerate(ascii_lowercase)
+numbers = list(plaintext)
 
-print(LETTERS)
+for number in range(len(numbers)):
+    numbers[number] = string.ascii_lowercase.index(numbers[number])
 
-#for x in len(plaintext):
-    
-    
+for number in range(len(numbers)):
+        numbers[number] = (numbers[number] + mod) % 26
+
+print(numbers)
